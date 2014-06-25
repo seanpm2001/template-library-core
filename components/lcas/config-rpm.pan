@@ -14,7 +14,7 @@
 #
 
 # #
-      # lcas, 14.5.0, 1, 20140606-1647
+      # lcas, 14.6.0-rc1, rc1_1, 20140625-1505
       #
 
 unique template components/lcas/config-rpm;
@@ -25,6 +25,6 @@ include { 'components/lcas/config-common' };
 prefix '/software/components/lcas';
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-lcas','14.5.0-1','noarch');
+'/software/packages' = pkg_repl('ncm-lcas','14.6.0-rc1_1','noarch');
 'dependencies/pre' ?= list('spma');
 
