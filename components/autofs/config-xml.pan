@@ -14,7 +14,7 @@
 #
 
 # #
-      # autofs, 14.5.0, 1, 20140606-1646
+      # autofs, 14.6.0-rc1, rc1_1, 20140625-1505
       #
 
 unique template components/autofs/config-xml;

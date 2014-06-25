@@ -14,7 +14,7 @@
 #
 
 # #
-      # gmond, 14.5.0, 1, 20140606-1646
+      # gmond, 14.6.0-rc1, rc1_1, 20140625-1505
       #
 
 unique template components/gmond/config-common;
@@ -24,7 +24,7 @@ include { 'components/gmond/schema' };
 # Set prefix to root of component configuration.
 prefix '/software/components/gmond';
 
-#'version' = '14.5.0';
+#'version' = '14.6.0-rc1';
 #'package' = 'NCM::Component';
 
 'active' ?= true;
