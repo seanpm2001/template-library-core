@@ -7,7 +7,7 @@
 # ${developer-info
 # ${author-info}
 # #
-      # ks, 14.5.0, 20140606.1647.56
+      # ks, 14.6.0-rc1, 20140625.1506.13
       #
 # Structure for the component generating kickstart files.
 
@@ -106,6 +106,11 @@ type structure_ks_ks_info = {
     "part_label" : boolean = false # Does the "part" stanza support the --label option?
     # Set to true if volgroup statement is required in KS config file (must not be present for SL6+)
     'volgroup_required' : boolean = false
+    
+    'version' : string = '11.1' # anaconda version, default is for EL5.0 support 
+    'cmdline' ? boolean # use cmdline instead of text mode
+    'eula' ? boolean # agree with EULA (EL7+)
+    'packagesinpost' ? boolean
 };
 
 bind "/system/aii/osinstall/ks" = structure_ks_ks_info;
