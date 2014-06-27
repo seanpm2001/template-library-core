@@ -14,7 +14,7 @@
 #
 
 # #
-      # wmslb, 14.5.0, 1, 20140606-1647
+      # wmslb, 14.6.0-rc2, rc2_1, 20140627-1816
       #
 
 unique template components/wmslb/config-xml;
