@@ -14,7 +14,7 @@
 #
 
 # #
-      # mysql, 14.5.0, 1, 20140606-1646
+      # mysql, 14.6.0-rc2, rc2_1, 20140627-1815
       #
 
 unique template components/mysql/config-common;
@@ -24,7 +24,7 @@ include { 'components/mysql/schema' };
 # Set prefix to root of component configuration.
 prefix '/software/components/mysql';
 
-#'version' = '14.5.0';
+#'version' = '14.6.0-rc2';
 #'package' = 'NCM::Component';
 
 'active' ?= true;

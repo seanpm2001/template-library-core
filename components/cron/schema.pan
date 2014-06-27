@@ -7,12 +7,13 @@
 # #
 # Current developer(s):
 #   Charles Loomis <charles.loomis@cern.ch>
+#   Mark Wilson <Mark.Wilson@morganstanley.com>
 #
 
+# 
 # #
-# Author(s): Jane SMITH, Joe DOE
-#
-
+      # cron, 14.6.0-rc2, rc2_1, 20140627-1815
+      #
 
 
 declaration template components/cron/schema;
@@ -77,6 +78,8 @@ type component_cron = {
     'entries' ? structure_cron[]
     'deny'    ? string[]
     'allow'   ? string[]
+    # required for multi os
+    'securitypath' : string = '/etc' # Linux default
 };
 
 bind '/software/components/cron' = component_cron;

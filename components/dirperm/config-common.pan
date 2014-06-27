@@ -14,7 +14,7 @@
 #
 
 # #
-      # dirperm, 14.5.0, 1, 20140606-1646
+      # dirperm, 14.6.0-rc2, rc2_1, 20140627-1815
       #
 
 unique template components/dirperm/config-common;
@@ -24,7 +24,7 @@ include { 'components/dirperm/schema' };
 # Set prefix to root of component configuration.
 prefix '/software/components/dirperm';
 
-#'version' = '14.5.0';
+#'version' = '14.6.0-rc2';
 #'package' = 'NCM::Component';
 
 'active' ?= true;

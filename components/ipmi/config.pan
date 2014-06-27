@@ -11,7 +11,7 @@
 
 # 
 # #
-      # ipmi, 14.5.0, 1, 20140606-1646
+      # ipmi, 14.6.0-rc2, rc2_1, 20140627-1815
       #
 
 unique template components/ipmi/config;
