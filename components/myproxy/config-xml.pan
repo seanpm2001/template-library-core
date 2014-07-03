@@ -14,7 +14,7 @@
 #
 
 # #
-      # myproxy, 14.5.0, 1, 20140606-1647
+      # myproxy, 14.6.0-rc3, rc3_1, 20140703-1529
       #
 
 unique template components/myproxy/config-xml;

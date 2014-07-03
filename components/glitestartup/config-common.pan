@@ -14,7 +14,7 @@
 #
 
 # #
-      # glitestartup, 14.5.0, 1, 20140606-1647
+      # glitestartup, 14.6.0-rc3, rc3_1, 20140703-1529
       #
 
 unique template components/glitestartup/config-common;
@@ -25,7 +25,7 @@ include { 'components/glitestartup/functions' };
 # Set prefix to root of component configuration.
 prefix '/software/components/glitestartup';
 
-'version' = '14.5.0';
+'version' = '14.6.0';
 #'package' = 'NCM::Component';
 
 'active' ?= true;
