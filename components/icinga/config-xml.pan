@@ -14,7 +14,7 @@
 #
 
 # #
-      # icinga, 14.5.0, 1, 20140606-1646
+      # icinga, 14.6.0-rc3, rc3_1, 20140703-1528
       #
 
 unique template components/icinga/config-xml;
