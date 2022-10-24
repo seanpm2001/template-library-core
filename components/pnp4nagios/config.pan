@@ -11,7 +11,7 @@
 
 # 
 # #
-# pnp4nagios, 21.4.0-rc1, rc1_1, Wed Apr 28 2021
+# pnp4nagios, 21.12.1-rc1, rc1_1, Mon Oct 24 2022
 #
 
 unique template components/pnp4nagios/config;

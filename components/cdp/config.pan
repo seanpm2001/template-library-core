@@ -17,12 +17,12 @@ include 'components/cdp/schema';
 
 bind '/software/components/cdp' = cdp_component;
 
-'/software/packages' = pkg_repl('ncm-cdp', '21.4.0-rc1_1', 'noarch');
+'/software/packages' = pkg_repl('ncm-cdp', '21.12.1-rc1_1', 'noarch');
 
 include if_exists('components/cdp/site-config');
 
 prefix '/software/components/cdp';
 'active' ?= true;
 'dispatch' ?= true;
-'version' ?= '21.4.0';
+'version' ?= '21.12.1';
 'dependencies/pre' ?= list('spma');

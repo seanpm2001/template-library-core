@@ -17,12 +17,12 @@ include 'components/useraccess/schema';
 
 bind '/software/components/useraccess' = useraccess_component;
 
-'/software/packages' = pkg_repl('ncm-useraccess', '21.4.0-rc1_1', 'noarch');
+'/software/packages' = pkg_repl('ncm-useraccess', '21.12.1-rc1_1', 'noarch');
 
 include if_exists('components/useraccess/site-config');
 
 prefix '/software/components/useraccess';
 'active' ?= true;
 'dispatch' ?= true;
-'version' ?= '21.4.0';
+'version' ?= '21.12.1';
 "dependencies/pre" ?=  list("spma", "accounts");
