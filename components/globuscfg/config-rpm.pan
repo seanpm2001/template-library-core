@@ -14,7 +14,7 @@
 #
 
 # #
-# globuscfg, 21.4.0-rc1, rc1_1, Wed Apr 28 2021
+# globuscfg, 21.12.1-rc1, rc1_1, Mon Oct 24 2022
 #
 
 unique template components/globuscfg/config-rpm;
@@ -25,6 +25,6 @@ include 'components/globuscfg/config-common';
 prefix '/software/components/globuscfg';
 
 # Install Quattor configuration module via RPM package.
-'/software/packages' = pkg_repl('ncm-globuscfg', '21.4.0-rc1_1', 'noarch');
+'/software/packages' = pkg_repl('ncm-globuscfg', '21.12.1-rc1_1', 'noarch');
 'dependencies/pre' ?= list('spma');
 
